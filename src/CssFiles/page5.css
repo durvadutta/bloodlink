@@ -1,0 +1,145 @@
+#page5 {
+  height: 100vh;
+}
+.image-container2 {
+  padding-left: 4vw;
+  width: 50%;
+  align-items: center;
+  gap: 2vw;
+}
+
+.image2 {
+  width: 18vw;
+  height: 32vw;
+  transition: all ease 0.6s;
+
+}
+.image2:hover{
+  transform: translateY(-7px);
+
+}
+.image2 div {
+  width: 4vw;
+  height: 4vw;
+}
+.image2:nth-child(1) {
+  background-image: url(../Assets/heart.jpg);
+}
+.image2:nth-child(2) {
+  background-image: url(../Assets/img3.jpg);
+}
+.faq {
+  padding: 0vw 5vw;
+  width: 50%;
+  padding: 2.5rem;
+}
+
+.elem4 {
+  height: 3.5vw;
+  margin-bottom: 1vw;
+}
+
+.elem4 h1 {
+  font-size: 2.5vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .elem4 {
+    height: 3.5vw;
+  }
+  .elem4 h1 {
+    font-size: 2.8vw;
+  }
+
+  .image2 {
+    width: 21vw;
+    height: 38vw;
+  }
+  .image2 div {
+    width: 4vw;
+    height: 4vw;
+  }
+  .image-container2 {
+    margin-right: 5vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  #page5 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    height: 170vh;
+  }
+  .faq {
+    width: 100%;
+    align-items: center;
+    padding: 0vw 5vw;
+  }
+
+  .elem4 {
+    justify-content: center;
+    height: 5vw;
+    margin-bottom: 3vw;
+  }
+
+  .elem4 h1 {
+    text-align: center;
+    font-size: 4.5vw;
+  }
+
+  .image-container2 {
+    width: 90%;
+    margin-right: 0;
+    padding-left: 0;
+    align-items: flex-start;
+    gap: 3vw;
+  }
+  .image-container2 .image2 {
+    height: 450px;
+    width: 250px;
+  }
+
+  .image2 div {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #page5 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    height: 145vh;
+  }
+
+  .image-container2 .image2 {
+    height: 350px;
+    width: 200px;
+  }
+  .image2 div {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .elem4 {
+    height: 7.5vw;
+  }
+
+  .elem4 h1 {
+    font-size: 6.5vw;
+  }
+
+  .image-container2 {
+    gap: 4vw;
+  }
+  .image-container2 .image2 {
+    height: 72vw;
+  }
+  .image2 div {
+    height: 10vw;
+    width: 10vw;
+  }
+}

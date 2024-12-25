@@ -1,0 +1,111 @@
+footer p,
+footer strong,
+footer b,
+footer li {
+  color: #b0b0b0;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#footer-navigation,
+#footer-navigation li a,
+.custom-footer li a {
+  color: #99a9b5;
+  padding-top: 15px;
+}
+
+#footer-menu li {
+  display: inline-block;
+  padding: 0 21px;
+  position: relative;
+  line-height: 1;
+}
+
+#footer-menu li + li:before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid #232234;
+  border-right: 1px solid #333146;
+}
+
+a.socials-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #141421;
+  border: 1px solid #2e2e4c;
+  transition: all 0.3s;
+}
+
+a.socials-item:hover {
+  box-shadow: 0 0px 20px rgba(84, 1, 74, 0.7);
+  border-color: rgba(255, 6, 224, 0.61);
+  background: linear-gradient(to right, rgba(255, 9, 9, 0.13), #c000ffb5, rgba(255, 0, 94, 0.14));
+}
+
+.footer-title {
+  margin-bottom: 40px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.footer-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 1px;
+  background: #fff;
+  opacity: 0.2;
+}
+
+#footer i {
+  padding-right: 10px;
+}
+
+.wpcf7-form-control-wrap input,
+.wpcf7-form-control-wrap textarea {
+  background: #1c1f2f;
+  border: 1px solid #2e344d;
+  box-shadow: 10px 10px 36px rgb(0, 0, 0, 0.5), -13px -13px 23px rgba(255, 255, 255, 0.03);
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.wpcf7-form-control-wrap input:hover,
+.wpcf7-form-control-wrap textarea:hover {
+  box-shadow: 10px 10px 36px rgb(0, 0, 0, 0.5), -13px -13px 23px rgba(255, 255, 255, 0.03), inset 14px 14px 70px rgb(0, 0, 0, 0.2), inset -15px -15px 30px rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.wpcf7-form .wpcf7-submit {
+  background-color: #394050;
+  color: #99a9b5;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.wpcf7-form .wpcf7-submit:hover {
+  box-shadow: 0 0px 20px rgba(84, 1, 74, 0.7);
+  border-color: rgba(255, 6, 224, 0.61);
+  background: linear-gradient(to right, rgba(255, 9, 9, 0.13), #c000ffb5, rgba(255, 0, 94, 0.14));
+}
+
+#footer img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@font-face {
+  font-family: nb;
+  src: url("../Assets/NBInternationalProBoo.ttf");
+}
+
+
+.badge {
+  font-size: small;
+  margin: 1vw 0vw;
+}
+@media screen and (max-width: 900px) {
+  .badge {
+    font-size: x-small;
+    margin: 3vw 0vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .badge {
+    font-size: 9px;
+    margin: 5vw 0vw;
+  }
+}

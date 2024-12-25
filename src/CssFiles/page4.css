@@ -1,0 +1,135 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --purple: hsl(280, 87%, 65%);
+  --maroon: hsl(0, 100%, 29%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(230, 7%, 35%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+#page4 {
+  min-height: 100vh;
+}
+.box {
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: all ease 0.6s;
+}
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 4px 30px 0px var(--grayishBlue);
+}
+.para {
+  color: var(--grayishBlue);
+  margin-bottom: 10px;
+}
+
+#page4 img {
+  float: right;
+}
+.elem3 {
+  height: 3.5vw;
+}
+.elem3 h1 {
+  font-size: 2.5vw;
+}
+@media (max-width: 450px) {
+  .box {
+    height: 200px;
+  }
+}
+
+@media (max-width: 950px) {
+  .box {
+    text-align: center;
+    height: 230px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid var(--cyan);
+}
+.red {
+  border-top: 3px solid var(--red);
+}
+.blue {
+  border-top: 3px solid var(--blue);
+}
+.orange {
+  border-top: 3px solid var(--orange);
+}
+.purple {
+  border-top: 3px solid var(--purple);
+}
+.maroon {
+  border-top: 3px solid var(--maroon);
+}
+
+@media (min-width: 950px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-down {
+    position: relative;
+    top: 150px;
+  }
+  .box {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1116px) and (min-width: 950px) {
+  .box {
+    width: 29%;
+  }
+
+  .elem3 {
+    height: 4.5vw;
+  }
+  .elem3 h1 {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #page3 {
+    margin: 0vw 2vw;
+  }
+  .elem3 {
+    justify-content: center;
+    height: 5.5vw;
+  }
+
+  .elem3 h1 {
+    text-align: center;
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .elem3 {
+    height: 7.5vw;
+  }
+
+  .elem3 h1 {
+    font-size: 6.5vw;
+  }
+  #page4 p {
+    font-size: 4vw;
+  }
+}

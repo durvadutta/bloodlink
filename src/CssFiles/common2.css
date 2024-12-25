@@ -1,0 +1,23 @@
+.donors-container{
+    width: 70%;
+}
+.donor-container{
+    padding: 0 2rem;
+    align-items: center;
+    height: 15vh;
+}
+@media screen and (max-width:700px) {
+    .donors-container{
+        width: 100%;
+    }
+    .donor-container{
+        padding:0 0.2rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .donor-container{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+}

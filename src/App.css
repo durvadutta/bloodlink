@@ -1,0 +1,9 @@
+@font-face {
+    font-family: nb;
+    src: url('../Assets/NBInternationalProBoo.ttf');
+}
+
+body{
+    font-family: nb;
+    background-color: white;
+}

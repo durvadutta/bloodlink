@@ -1,0 +1,171 @@
+#page2 {
+  height: 100vh;
+}
+
+.image-container {
+  padding-left: 4vw;
+  width: 50%;
+  align-items: center;
+  gap: 2vw;
+}
+
+.image1 {
+  width: 18vw;
+  height: 32vw;
+  transition: all ease 0.6s;
+}
+.image1:hover {
+  transform: translateY(-7px);
+}
+
+.image1 div {
+  width: 4vw;
+  height: 4vw;
+}
+.image1:nth-child(1) {
+  background-image: url(../Assets/heart.jpg);
+}
+.image1:nth-child(2) {
+  background-image: url(../Assets/img3.jpg);
+}
+.info {
+  padding: 0vw 5vw;
+  width: 50%;
+}
+
+.elem1 {
+  height: 3.5vw;
+}
+
+.elem1 h1 {
+  font-size: 2.5vw;
+}
+#page2 p {
+  font-size: 1.1vw;
+  width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .elem1 {
+    height: 3.5vw;
+  }
+  .elem1 h1 {
+    font-size: 2.8vw;
+  }
+  .info {
+    padding-left: 0;
+  }
+  #page2 p {
+    font-size: 1.5vw;
+  }
+
+  .image1 {
+    width: 21vw;
+    height: 38vw;
+  }
+  .image1 div {
+    width: 4vw;
+    height: 4vw;
+  }
+  .image-container {
+    margin-right: 5vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  #page2 {
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: center;
+    height: 170vh;
+  }
+  .info {
+    width: 100%;
+    align-items: center;
+    padding: 5vw 0vw;
+  }
+
+  .elem1 {
+    justify-content: center;
+    height: 5vw;
+  }
+
+  .elem1 h1 {
+    text-align: center;
+    font-size: 4.5vw;
+  }
+  #page2 p {
+    text-align: center;
+    font-size: 2.3vw;
+  }
+  .image-container {
+    width: 90%;
+    margin-right: 0;
+    padding-left: 0;
+    align-items: flex-start;
+    gap: 3vw;
+  }
+  .image-container .image1 {
+    height: 450px;
+    width: 250px;
+  }
+
+  .image1 div {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #page2 {
+    height: 150vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  #page2 {
+    height: 130vh;
+  }
+
+  .image-container .image1 {
+    height: 350px;
+    width: 200px;
+  }
+  .image1 div {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #page2 {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  .elem1 {
+    height: 7.5vw;
+  }
+
+  .elem1 h1 {
+    font-size: 6.5vw;
+  }
+  #page2 p {
+    text-align: center;
+    font-size: 4vw;
+    width: 90%;
+  }
+  .image-container {
+    gap: 4vw;
+  }
+  .image-container .image1 {
+    height: 72vw;
+  }
+  .image1 div {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #page2 {
+    height: 250vw;
+  }
+}

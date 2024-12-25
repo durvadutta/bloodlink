@@ -1,0 +1,44 @@
+.nav {
+  padding: 20px 50px;
+}
+@media screen and (max-width: 1000px) {
+  .nav {
+    padding: 10px 20px;
+  }
+}
+.website-name {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.nav-toggle {
+  display: none;
+  z-index: 1001;
+}
+
+.navbar-elements {
+  display: flex;
+}
+
+.sidebar {
+  transition: left 0.3s ease;
+  left: -800px;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar-elements {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+  .open {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    padding: 10px 0px;
+  }
+}

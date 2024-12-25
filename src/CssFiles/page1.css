@@ -1,0 +1,143 @@
+#page1 {
+  height: 100vh;
+}
+.overlay {
+  height: 100vh;
+}
+.text {
+  font-size: 3.2vw;
+}
+#page1 p {
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+  font-size: 2.2vw;
+}
+.design {
+  display: flex;
+  justify-content: space-around;
+}
+.text-part {
+  width: 44%;
+  justify-content: center;
+}
+.text-part p {
+  width: 70%;
+}
+.button-group {
+  margin: 2rem 0rem;
+}
+.images-part {
+  width: 45%;
+  gap: 2vw;
+  align-items: center;
+}
+.images-part .image {
+  height: 32vw;
+  width: 280px;
+  transition: all ease 0.6s;
+
+}
+.images-part .image:hover {
+  transform: translateY(-7px);
+  
+}
+.image div {
+  height: 4vw;
+  width: 4vw;
+}
+.image:nth-child(1) {
+  background-image: url(../Assets/banner2.png);
+}
+.image:nth-child(2) {
+  background-image: url(../Assets/banner1.png);
+}
+@media screen and (max-width: 1200px) {
+  .text h1 {
+    font-size: 3.9vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .text {
+    text-align: center;
+    font-size: 4.5vw;
+  }
+  #page1 p {
+    text-align: center;
+    font-size: 3vw;
+  }
+  .text-part {
+    align-items: center;
+    width: 70%;
+    justify-content: end;
+  }
+  .button-group {
+    margin: 1rem 0rem;
+  }
+  .images-part {
+    width: 100%;
+    height: 50%;
+    gap: 3vw;
+    align-items: center;
+    position: relative;
+    top: 4vw;
+  }
+  .images-part .image {
+    height: 350px;
+    width: 200px;
+  }
+  .image div {
+    height: 40px;
+    width: 40px;
+  }
+  .design {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #page1 {
+    height: 120vh;
+  }
+  .overlay {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text-part {
+    width: 90%;
+    height: 50%;
+  }
+  .button-group {
+    margin: 2rem 0rem;
+  }
+  .text {
+    text-align: center;
+    font-size: 6.5vw;
+  }
+  #page1 p {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .images-part {
+    align-items: flex-start;
+  }
+  .images-part .image {
+    height: 72vw;
+  }
+  .image div {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  #page1 {
+    height: 100vh;
+  }
+  .overlay {
+    height: 100vh;
+  }
+}
